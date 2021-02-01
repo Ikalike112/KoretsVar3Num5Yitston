@@ -30,8 +30,6 @@ namespace ConsoleApp1
             Key1 = new string(key1.Distinct().ToArray());
             Key2 = new string(key2.Distinct().ToArray());
             int k = 0;
-            int k_alf1 = 0;
-            int k_alf2 = 0;
             for (int i = 0; i < 6; i++)
                 for (int j = 0; j < 6; j++)
                 {
