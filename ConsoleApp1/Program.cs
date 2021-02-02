@@ -11,7 +11,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Yitstona y = new Yitstona("водогрязеторфопарафинолечение","скрытоколокольчик");
-
+            Console.WriteLine("МАМА КРАСИВАЯ");
+            Console.WriteLine(y.Zawifr("МАМА КРАСИВАЯ"));
+            Console.WriteLine(y.Raswifr(y.Zawifr("МАМА КРАСИВАЯ")));
             Console.ReadKey();
         }
     }
